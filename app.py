@@ -7,7 +7,7 @@ import base64
 
 client_id = os.environ.get('ZOOM_CLIENT_ID')
 client_secret = os.environ.get('ZOOM_CLIENT_SECRET')
-redirect_uri = os.environ.get('ZOOM_REDIRECT_URI')
+redirect_uri = 'http://localhost:8080/oauth/redirect' 
 
 app = Flask(__name__)
 
