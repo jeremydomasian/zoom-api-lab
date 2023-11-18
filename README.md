@@ -7,6 +7,7 @@ Retrieves your own Zoom account information
 
 ## How to use this
 
+0. Install dependencies: `flask`, `requests`
 1. Create an OAuth app in Zoom App Marketplace with `user:read` scope
 - Intend to publish: `No`
 - User-managed app
