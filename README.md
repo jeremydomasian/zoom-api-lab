@@ -8,6 +8,9 @@ Retrieves your own Zoom account information
 ## How to use this
 
 1. Create an OAuth app in Zoom App Marketplace with `user:read` scope
+- Intend to publish: `No`
+- User-managed app
+- Scope: `user:read`
 2. Add your app's Client ID (`ZOOM_CLIENT_ID`) and Client Secret (`ZOOM_CLIENT_SECRET`) to your environment variables
 3. Run `app.py`
 4. In another terminal session, run `token_get.py`
